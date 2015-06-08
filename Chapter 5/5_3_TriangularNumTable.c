@@ -1,0 +1,27 @@
+/*
+	5.3 Triangular Numbers Table
+	
+	Gernerate first 10 triangular numbers
+	and display the result in a table
+	
+*/
+
+#include <stdio.h>
+
+int main(void)
+{
+	int n, triangularNumber;
+	printf ("TABLE OF TRIANGULAR NUMBERS\n\n");
+	printf (" n   Sum from 1 to n\n");
+	printf ("---  ---------------\n");
+	
+	triangularNumber = 0;
+	
+	for ( n = 1; n <= 10; ++n) 
+	{
+		triangularNumber += n;
+		printf ( " %i		%i\n", n, triangularNumber);
+	}
+
+	return 0;
+}

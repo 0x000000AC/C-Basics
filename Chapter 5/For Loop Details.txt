@@ -1,0 +1,34 @@
+Variants of for loops
+
+- You can include multiple expressions in any of the fields 
+for the loop as long as you separate the expressions by commas
+
+for ( i = 0, j = 0; i < 10; ++i )
+	...
+
+for ( i = 0, j = 100; i < 10; ++i, j = j - 10 )
+	...
+	
+- You can leave one of the fields blank as long as you keep the
+semicolon in place.
+
+for ( ; j != 100; ++j )
+	...
+	
+- If you admit the loop_condition, you can effectively set up for 
+an infinite loop that is theoretically executed forever.  You can have
+a return, break, or goto 
+
+for ( init_expression; loop_condition; loop_loop expression )
+
+- Equivalent for and while loops
+
+for ( init_expression; loop_condition; loop_expression ) 
+	program statement
+
+can be equivalently expressed in the form of a while statement as
+
+init_expression;
+while ( loop_condition ) {
+program statement loop_expression;
+}

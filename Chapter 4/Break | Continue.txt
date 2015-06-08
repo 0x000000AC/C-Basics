@@ -1,0 +1,16 @@
+Note on Continue and Break
+
+- Break can terminate out of a loop condition prematurely
+- Generally not the most advisable thing.  Break and continue
+can make a program hard to follow.
+
+break;
+
+- Continue statement is similar.  At the point that
+the continue statement happens, any loop iteration that
+occurs after is skipped.
+- Most often used to bypass a group of statements inside
+a loop based on some condition, but to otherwise continue
+execution of the loop
+
+continue;

@@ -6,6 +6,9 @@
 	
 	The floats after show the true expression.
 	
+	The unary '-' operator has higher precedence
+	than all other operators except for '+'
+	
 */
 
 #include <stdio.h>

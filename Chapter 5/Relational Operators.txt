@@ -1,0 +1,11 @@
+Relational Operators
+
+==	Equal to					count == 10
+!=	Not equal to				flag != DONE
+<	Less than					a<b
+<=	Less than or equal to		low <= high
+>	Greater than	            pointer > end_of_list
+>=	Greater than or equal to	j>=0 
+
+- The relational operators have lower precedence than all
+arithmetic operators.
